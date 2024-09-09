@@ -1,0 +1,28 @@
+.carousel {
+  margin: auto;
+  max-height: 600px;
+  background-color:rgba(0, 0, 0, 0.704);
+
+
+}
+
+.carousel-inner img {
+
+  margin: auto;
+  height: 600px;
+
+}
+
+iframe {
+  height: 300px;
+  width: 75%;
+}
+
+
+fieldset{
+  margin: auto;
+  /* box-shadow: 2px 2px 2px 2px grey; */
+  border: 1px;
+}
+
+
