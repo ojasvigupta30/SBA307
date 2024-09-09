@@ -1,7 +1,7 @@
 .carousel {
   margin: auto;
   max-height: 600px;
-  background-color:rgba(0, 0, 0, 0.704);
+  background-color: rgba(0, 0, 0, 0.704);
 
 
 }
@@ -19,7 +19,7 @@ iframe {
 }
 
 
-fieldset{
+fieldset {
   margin: auto;
   /* box-shadow: 2px 2px 2px 2px grey; */
   border: 1px;
@@ -38,17 +38,127 @@ fieldset{
   font-style: normal;
 }
 
-form, table{
+.merienda-regular {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+form,
+table {
   font-family: "Seaweed Script", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size:x-large;
+  font-size: x-large;
 }
 
-nav, footer{
+nav,
+footer {
   font-family: "East Sea Dokdo", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: xx-large;
 }
+
+.card {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+#subscBut {
+
+  transition-property: height;
+  transition-duration: 3s;
+}
+
+#subscBut:hover {
+
+  height: 75px;
+
+}
+
+#subBut {
+
+  transition-property: height;
+  transition-duration: 3s;
+}
+
+#subBut:hover {
+
+  height: 75px;
+
+}
+
+table {
+  margin: auto;
+}
+
+#soon1{
+  margin: auto;
+  width: 100%;
+  height: 600px
+}
+
+#ship{
+
+  height:200px;
+
+}
+
+
+
+
+
+
+#ship {
+  position: relative;
+  animation: waveMotion 20s infinite;
+}
+
+
+@keyframes waveMotion {
+
+  0% {
+    transform: translateX(0px) translateY(0);
+  }
+
+  20% {
+    transform: translateX(250px) translateY(-50px);
+  }
+
+  40% {
+    transform: translateX(500px) translateY(0);
+  }
+
+  60% {
+    transform: translateX(750px) translateY(-50px);
+  }
+
+  80% {
+    transform: translateX(1000px) translateY(0);
+  }
+
+  100% {
+    transform: translateX(1250px) translateY(-50px);
+  }
+
+}
+
+
+
+
+
 
